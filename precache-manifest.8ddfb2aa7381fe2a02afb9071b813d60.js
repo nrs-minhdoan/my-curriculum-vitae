@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58ab5b0555a7e140ca253039f78e0aa0",
+    "revision": "b25635b3f4093ba3759aa023c521eeef",
     "url": "/my-curriculum-vitae/index.html"
   },
   {
-    "revision": "fcc36d6ea578ea742d12",
+    "revision": "765b4d82ed8abaf3aee0",
     "url": "/my-curriculum-vitae/static/css/main.05ca420b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-curriculum-vitae/static/js/2.60bde024.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcc36d6ea578ea742d12",
-    "url": "/my-curriculum-vitae/static/js/main.584f9e06.chunk.js"
+    "revision": "765b4d82ed8abaf3aee0",
+    "url": "/my-curriculum-vitae/static/js/main.2d2e0577.chunk.js"
   },
   {
     "revision": "e36b9aae5d7330533ce9",
