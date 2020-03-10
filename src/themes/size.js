@@ -1,5 +1,13 @@
 import { css } from "styled-components";
 
+export const EXTRA_SMALL_DEVICES = "(max-width: 575px)";
+
+export const SMALL_DEVICES = "(max-width: 767px)";
+
+export const MEDIUM_DEVICES = "(max-width: 991px)";
+
+export const LARGE_DEVICES = "(max-width: 1199px)";
+
 export const xSmall = css`
   font-size: 9px;
 `;

@@ -9,12 +9,21 @@ import Education from "./Education";
 import Certifications from "./Certifications";
 
 import { SECONDARY, SHADOW_COLOR } from "../themes/colors";
+import { LARGE_DEVICES, EXTRA_SMALL_DEVICES } from "../themes/size";
 
 const Wrapper = styled.div`
   width: 55%;
   height: 100%;
   background-color: ${SECONDARY};
   box-shadow: 0px 15px 60px -10px ${SHADOW_COLOR};
+
+  @media ${LARGE_DEVICES} {
+    width: 80%;
+  }
+
+  @media ${EXTRA_SMALL_DEVICES} {
+    width: 90%;
+  }
 `;
 
 function CurriculumVitae() {
