@@ -1,5 +1,5 @@
-const data = {
-  skills: [
+const skills = {
+  frameworks: [
     {
       points: 80,
       icon: require("../assets/images/ic_react.svg"),
@@ -104,6 +104,37 @@ const data = {
       ]
     },
     {
+      points: 60,
+      icon: require("../assets/images/ic_bootstrap.svg"),
+      name: "Bootstrap",
+      link: "https://getbootstrap.com",
+      libraries: [
+        {
+          name: "Bootstrap",
+          link: "https://getbootstrap.com/1.4.0"
+        },
+        {
+          name: "Bootstrap 2",
+          link: "https://getbootstrap.com/2.3.2"
+        },
+        {
+          name: "Bootstrap 3",
+          link: "https://getbootstrap.com/docs/3.4"
+        },
+        {
+          name: "Bootstrap 4",
+          link: "https://getbootstrap.com/docs/4.4"
+        },
+        { name: "Reactstrap", link: "https://reactstrap.github.io" },
+        {
+          name: "React Bootstrap",
+          link: "https://react-bootstrap.github.io"
+        }
+      ]
+    }
+  ],
+  languages: [
+    {
       points: 80,
       icon: require("../assets/images/ic_javascript.svg"),
       name: "Javascript",
@@ -187,37 +218,8 @@ const data = {
           link: "https://styled-components.com"
         }
       ]
-    },
-    {
-      points: 60,
-      icon: require("../assets/images/ic_bootstrap.svg"),
-      name: "Bootstrap",
-      link: "https://getbootstrap.com",
-      libraries: [
-        {
-          name: "Bootstrap",
-          link: "https://getbootstrap.com/1.4.0"
-        },
-        {
-          name: "Bootstrap 2",
-          link: "https://getbootstrap.com/2.3.2"
-        },
-        {
-          name: "Bootstrap 3",
-          link: "https://getbootstrap.com/docs/3.4"
-        },
-        {
-          name: "Bootstrap 4",
-          link: "https://getbootstrap.com/docs/4.4"
-        },
-        { name: "Reactstrap", link: "https://reactstrap.github.io" },
-        {
-          name: "React Bootstrap",
-          link: "https://react-bootstrap.github.io"
-        }
-      ]
     }
   ]
 };
 
-export default data;
+export default skills;

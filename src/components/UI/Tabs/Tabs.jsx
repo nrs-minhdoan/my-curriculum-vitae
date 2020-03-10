@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 import { PRIMARY, WHITE } from "../../../themes/colors";
-import { large } from "../../../themes/size";
+import { EXTRA_SMALL_DEVICES, large } from "../../../themes/size";
 import { center } from "../../../themes/styles";
 
 const Wrapper = styled.div`
@@ -11,6 +11,10 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   z-index: 1;
+
+  @media ${EXTRA_SMALL_DEVICES} {
+    flex-wrap: wrap;
+  }
 `;
 
 const Tab = styled.div`
@@ -22,6 +26,10 @@ const Tab = styled.div`
   ${center}
   ${large}
   transition: color 0.3s ease;
+
+  @media ${EXTRA_SMALL_DEVICES} {
+    width: 120px;
+  }
 `;
 
 const Bar = styled.div`
@@ -33,6 +41,11 @@ const Bar = styled.div`
   bottom: -2px;
   left: ${props => `calc(100% * ${props.active} / ${props.size})`};
   transition: left 0.3s ease;
+
+  @media ${EXTRA_SMALL_DEVICES} {
+    width: 100%;
+    left: 0px;
+  }
 `;
 
 function Tabs({ data, active, onChange }) {
