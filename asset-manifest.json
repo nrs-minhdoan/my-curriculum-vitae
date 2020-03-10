@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/my-curriculum-vitae/static/css/main.47e96404.chunk.css",
-    "main.js": "/my-curriculum-vitae/static/js/main.40e702af.chunk.js",
-    "main.js.map": "/my-curriculum-vitae/static/js/main.40e702af.chunk.js.map",
+    "main.css": "/my-curriculum-vitae/static/css/main.05ca420b.chunk.css",
+    "main.js": "/my-curriculum-vitae/static/js/main.ff70f812.chunk.js",
+    "main.js.map": "/my-curriculum-vitae/static/js/main.ff70f812.chunk.js.map",
     "runtime-main.js": "/my-curriculum-vitae/static/js/runtime-main.8c5988c3.js",
     "runtime-main.js.map": "/my-curriculum-vitae/static/js/runtime-main.8c5988c3.js.map",
-    "static/js/2.e4c579e2.chunk.js": "/my-curriculum-vitae/static/js/2.e4c579e2.chunk.js",
-    "static/js/2.e4c579e2.chunk.js.map": "/my-curriculum-vitae/static/js/2.e4c579e2.chunk.js.map",
+    "static/js/2.60bde024.chunk.js": "/my-curriculum-vitae/static/js/2.60bde024.chunk.js",
+    "static/js/2.60bde024.chunk.js.map": "/my-curriculum-vitae/static/js/2.60bde024.chunk.js.map",
     "index.html": "/my-curriculum-vitae/index.html",
-    "precache-manifest.32d64414f8c6211d211d80c48c1e30f7.js": "/my-curriculum-vitae/precache-manifest.32d64414f8c6211d211d80c48c1e30f7.js",
+    "precache-manifest.2c485defb4bdebd443c6b7ca50719f23.js": "/my-curriculum-vitae/precache-manifest.2c485defb4bdebd443c6b7ca50719f23.js",
     "service-worker.js": "/my-curriculum-vitae/service-worker.js",
-    "static/css/main.47e96404.chunk.css.map": "/my-curriculum-vitae/static/css/main.47e96404.chunk.css.map",
-    "static/js/2.e4c579e2.chunk.js.LICENSE.txt": "/my-curriculum-vitae/static/js/2.e4c579e2.chunk.js.LICENSE.txt"
+    "static/css/main.05ca420b.chunk.css.map": "/my-curriculum-vitae/static/css/main.05ca420b.chunk.css.map",
+    "static/js/2.60bde024.chunk.js.LICENSE.txt": "/my-curriculum-vitae/static/js/2.60bde024.chunk.js.LICENSE.txt",
+    "static/media/ic_bootstrap.svg": "/my-curriculum-vitae/static/media/ic_bootstrap.1faf93a3.svg",
+    "static/media/ic_css.svg": "/my-curriculum-vitae/static/media/ic_css.ec5ef87b.svg",
+    "static/media/ic_html.svg": "/my-curriculum-vitae/static/media/ic_html.2e9ae849.svg",
+    "static/media/ic_javascript.svg": "/my-curriculum-vitae/static/media/ic_javascript.1949d232.svg",
+    "static/media/ic_next.svg": "/my-curriculum-vitae/static/media/ic_next.01400a9f.svg",
+    "static/media/ic_react.svg": "/my-curriculum-vitae/static/media/ic_react.428e6fb0.svg",
+    "static/media/ic_react_native.svg": "/my-curriculum-vitae/static/media/ic_react_native.d1e1f30f.svg",
+    "static/media/ic_typescript.svg": "/my-curriculum-vitae/static/media/ic_typescript.a6f8b2fc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8c5988c3.js",
-    "static/js/2.e4c579e2.chunk.js",
-    "static/css/main.47e96404.chunk.css",
-    "static/js/main.40e702af.chunk.js"
+    "static/js/2.60bde024.chunk.js",
+    "static/css/main.05ca420b.chunk.css",
+    "static/js/main.ff70f812.chunk.js"
   ]
 }
