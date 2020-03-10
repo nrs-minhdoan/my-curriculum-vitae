@@ -2,7 +2,8 @@ import React, { memo } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { WHITE, PRIMARY } from "../../../themes/colors";
+import { PRIMARY, WHITE } from "../../../themes/colors";
+import { large } from "../../../themes/size";
 import { center } from "../../../themes/styles";
 
 const Wrapper = styled.div`
@@ -18,7 +19,8 @@ const Tab = styled.div`
   cursor: pointer;
   font-weight: 600;
   color: ${props => (props.activated ? PRIMARY : WHITE)};
-  ${center};
+  ${center}
+  ${large}
   transition: color 0.3s ease;
 `;
 
@@ -35,6 +37,7 @@ const Bar = styled.div`
 
 function Tabs({ data, active, onChange }) {
   const size = data.length;
+
   return (
     <Wrapper>
       <Bar size={size} active={active} />
