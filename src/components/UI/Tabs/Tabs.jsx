@@ -28,7 +28,8 @@ const Tab = styled.div`
   transition: color 0.3s ease;
 
   @media ${EXTRA_SMALL_DEVICES} {
-    width: 120px;
+    width: 100%;
+    white-space: nowrap;
   }
 `;
 
