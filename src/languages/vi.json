@@ -4,5 +4,8 @@
     "experience": "Kinh nghiệm",
     "education": "Học vấn",
     "certifications": "Thành tích"
+  },
+  "label": {
+    "library": "Thư viện"
   }
 }

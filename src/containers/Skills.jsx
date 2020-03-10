@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 
 import data from "../data/data";
+import useLanguage from "../hooks/useLanguage";
 import ProgressBar from "../components/UI/ProgressBar/ProgressBar";
 
 import { PRIMARY, WHITE } from "../themes/colors";
@@ -65,6 +66,8 @@ const SkillPoint = styled.div`
 `;
 
 function Skills() {
+  const text = useLanguage();
+
   return (
     <Container>
       {data.skills.map(item => (
@@ -79,7 +82,9 @@ function Skills() {
               </LinkCustom>
             </SkillName>
             <SkillDescription>
-              <span style={{ textDecoration: "underline" }}>Library:</span>{" "}
+              <span style={{ textDecoration: "underline" }}>
+                {text.label.library}:
+              </span>{" "}
               {item.libraries.map(library => (
                 <Fragment key={library.name}>
                   <LinkCustom href={library.link} target={"_blank"}>
