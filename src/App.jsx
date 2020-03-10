@@ -6,7 +6,6 @@ import CurriculumVitae from "./containers/CurriculumVitae";
 
 import { PRIMARY, WHITE, BACKGROUND_COLOR } from "./themes/colors";
 import { normal } from "./themes/size";
-import { center } from "./themes/styles";
 
 const Container = styled.div`
   width: 100%;
@@ -15,7 +14,8 @@ const Container = styled.div`
   padding-bottom: 100px;
   background-color: ${BACKGROUND_COLOR};
   position: relative;
-  ${center}
+  display: flex;
+  justify-content: center;
 `;
 
 const LanguageMenu = styled.div`
