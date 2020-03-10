@@ -2,7 +2,7 @@
   "name": "my-curriculum-vitae",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cv.nrs-minhdoan.github.io",
+  "homepage": "https://nrs-minhdoan.github.io/my-curriculum-vitae",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
