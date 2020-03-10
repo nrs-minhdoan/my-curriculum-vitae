@@ -4,5 +4,8 @@
     "experience": "Experience",
     "education": "Education",
     "certifications": "Certifications"
+  },
+  "label": {
+    "library": "Library"
   }
 }
