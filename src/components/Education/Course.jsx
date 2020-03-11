@@ -6,7 +6,7 @@ import useLanguage from "../../hooks/useLanguage";
 import { PRIMARY, WHITE } from "../../themes/colors";
 import { SMALL_DEVICES, normal, large, xLarge } from "../../themes/size";
 
-const EducationItem = styled.div`
+const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
@@ -17,13 +17,13 @@ const EducationItem = styled.div`
   }
 `;
 
-const EducationLogo = styled.img`
+const Logo = styled.img`
   width: 80px;
   height: 80px;
   object-fit: contain;
   margin-top: 0px;
   margin-right: 20px;
-  
+
   @media ${SMALL_DEVICES} {
     width: 60px;
     height: 60px;
@@ -31,12 +31,12 @@ const EducationLogo = styled.img`
   }
 `;
 
-const EducationDetail = styled.div`
+const Detail = styled.div`
   flex: 1;
   margin-right: 10px;
 `;
 
-const EducationName = styled.div`
+const Name = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -71,7 +71,7 @@ const EducationName = styled.div`
   }
 `;
 
-const EducationDescription = styled.div`
+const Description = styled.div`
   color: ${WHITE};
   ${large}
 
@@ -94,24 +94,24 @@ function Course({ data }) {
   const text = useLanguage();
 
   return (
-    <EducationItem>
+    <Container>
       <a href={data.link}>
-        <EducationLogo src={data.icon} alt={""} />
+        <Logo src={data.icon} alt={""} />
       </a>
-      <EducationDetail>
-        <EducationName>
+      <Detail>
+        <Name>
           <LinkCustom href={data.link} target={"_blank"}>
             {text.education.institution[data.institution]}
           </LinkCustom>
           <p>{data.time}</p>
-        </EducationName>
-        <EducationDescription>
+        </Name>
+        <Description>
           {text.label.major}: <span>{text.education.major[data.major]}</span>
           <br />
           {text.label.status}: <span>{text.education.status[data.status]}</span>
-        </EducationDescription>
-      </EducationDetail>
-    </EducationItem>
+        </Description>
+      </Detail>
+    </Container>
   );
 }
 
