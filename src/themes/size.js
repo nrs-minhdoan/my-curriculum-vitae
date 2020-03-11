@@ -27,7 +27,3 @@ export const large = css`
 export const xLarge = css`
   font-size: 18px;
 `;
-
-export const xxLarge = css`
-  font-size: 22px;
-`;

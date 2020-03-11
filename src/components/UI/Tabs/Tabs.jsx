@@ -6,7 +6,7 @@ import { PRIMARY, WHITE } from "../../../themes/colors";
 import { EXTRA_SMALL_DEVICES, large } from "../../../themes/size";
 import { center } from "../../../themes/styles";
 
-const Wrapper = styled.div`
+const Container = styled.div`
   position: relative;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@ const Tab = styled.div`
   flex: 1;
   padding: 10px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   color: ${props => (props.activated ? PRIMARY : WHITE)};
   ${center}
   ${large}
@@ -53,7 +53,7 @@ function Tabs({ data, active, onChange }) {
   const size = data.length;
 
   return (
-    <Wrapper>
+    <Container>
       <Bar size={size} active={active} />
       {data.map((item, index) => (
         <Tab
@@ -64,7 +64,7 @@ function Tabs({ data, active, onChange }) {
           {item}
         </Tab>
       ))}
-    </Wrapper>
+    </Container>
   );
 }
 

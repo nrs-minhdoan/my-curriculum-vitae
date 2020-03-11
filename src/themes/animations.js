@@ -5,6 +5,11 @@ export const fadingIn = keyframes`
     to { opacity: 1; }
 `;
 
+export const changingHeight = keyframes`
+    from { height: 0%; }
+    to { height: 100%; }
+`;
+
 export const progressing = keyframes`
     from { width: 0; }
     to { width: 100%; }

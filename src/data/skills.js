@@ -206,7 +206,7 @@ const skills = {
       link: "#",
       libraries: [
         {
-          name: "SASS",
+          name: "SASS/SCSS",
           link: "https://sass-lang.com"
         },
         {

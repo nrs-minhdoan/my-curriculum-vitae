@@ -6,6 +6,8 @@
     "certifications": "Thành tích"
   },
   "label": {
+    "dob": "Ngày sinh",
+    "age": "tuổi",
     "library": "Thư viện"
   }
 }
