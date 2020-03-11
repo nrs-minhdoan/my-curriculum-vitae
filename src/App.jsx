@@ -2,7 +2,8 @@ import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 
 import { Language } from "./hooks/useLanguage";
-import CurriculumVitae from "./containers/CurriculumVitae";
+import Profile from "./components/Profile/Profile";
+import Layout from "./layout/Layout";
 
 import { PRIMARY, WHITE, BACKGROUND_COLOR } from "./themes/colors";
 import { normal } from "./themes/size";
@@ -15,7 +16,8 @@ const Container = styled.div`
   background-color: ${BACKGROUND_COLOR};
   position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const LanguageMenu = styled.div`
@@ -69,7 +71,8 @@ function App() {
             Vietnamese
           </LanguageOption>
         </LanguageMenu>
-        <CurriculumVitae />
+        <Profile />
+        <Layout />
       </Container>
     </Language.Provider>
   );

@@ -3,15 +3,15 @@ import styled from "styled-components";
 
 import useLanguage from "../hooks/useLanguage";
 import Tabs from "../components/UI/Tabs/Tabs";
-import Skills from "./Skills";
-import Experience from "./Experience";
-import Education from "./Education";
-import Certifications from "./Certifications";
+import Skills from "../containers/Skills";
+import Experience from "../containers/Experience";
+import Education from "../containers/Education";
+import Certifications from "../containers/Certifications";
 
 import { SECONDARY, SHADOW_COLOR } from "../themes/colors";
-import { LARGE_DEVICES, EXTRA_SMALL_DEVICES } from "../themes/size";
+import { EXTRA_SMALL_DEVICES, LARGE_DEVICES } from "../themes/size";
 
-const Wrapper = styled.div`
+const Container = styled.div`
   width: 55%;
   height: 100%;
   background-color: ${SECONDARY};
@@ -26,7 +26,7 @@ const Wrapper = styled.div`
   }
 `;
 
-function CurriculumVitae() {
+function Layout() {
   const [tab, setTab] = useState(0);
   const text = useLanguage();
 
@@ -59,11 +59,11 @@ function CurriculumVitae() {
   }, [tab]);
 
   return (
-    <Wrapper>
+    <Container>
       <Tabs data={tabs} active={tab} onChange={_handleChangeTab} />
       {_handleRender()}
-    </Wrapper>
+    </Container>
   );
 }
 
-export default CurriculumVitae;
+export default Layout;

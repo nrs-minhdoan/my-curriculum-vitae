@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 import skills from "../data/skills";
-import Skill from "../components/Skills/Skill";
+import Framework from "../components/Skills/Framework";
+import ProgrammingLanguage from "../components/Skills/ProgrammingLanguage";
 
 import { PRIMARY } from "../themes/colors";
 import { EXTRA_SMALL_DEVICES, xLarge } from "../themes/size";
@@ -10,7 +11,7 @@ import { fadingIn } from "../themes/animations";
 
 const Container = styled.div`
   padding: 60px 20px;
-  animation: ${fadingIn} 0.5s ease-in-out;
+  animation: ${fadingIn} 1s ease-in-out;
 `;
 
 const Title = styled.div`
@@ -33,11 +34,11 @@ function Skills() {
     <Container>
       <Title>● Frameworks:</Title>
       {skills.frameworks.map(item => (
-        <Skill key={item.name} data={item} />
+        <Framework key={item.name} data={item} />
       ))}
       <TitleCustom>● Programming Languages:</TitleCustom>
       {skills.languages.map(item => (
-        <Skill key={item.name} data={item} />
+        <ProgrammingLanguage key={item.name} data={item} />
       ))}
     </Container>
   );

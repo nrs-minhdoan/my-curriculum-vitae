@@ -28,7 +28,7 @@ const SkillDetail = styled.div`
 `;
 
 const SkillName = styled.div`
-  font-weight: 600;
+  font-weight: 700;
   ${xLarge}
   margin-right: 20px;
   margin-bottom: 5px;
@@ -59,7 +59,7 @@ const SkillPoint = styled.div`
   flex: 1;
 `;
 
-function Skill({ data }) {
+function Framework({ data }) {
   const text = useLanguage();
 
   return (
@@ -133,4 +133,4 @@ function Skill({ data }) {
   );
 }
 
-export default Skill;
+export default Framework;
