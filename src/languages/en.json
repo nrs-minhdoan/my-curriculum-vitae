@@ -8,6 +8,21 @@
   "label": {
     "dob": "DoB",
     "age": "years olds",
-    "library": "Libraries"
+    "library": "Libraries",
+    "major": "Major",
+    "status": "Status"
+  },
+  "education": {
+    "institution": {
+      "haui": "Ha Noi University of Industry",
+      "color_me": "Color ME"
+    },
+    "major": {
+      "software_engineering": "Software Engineering",
+      "react_native": "Mobile Application Programming by React-Native"
+    },
+    "status": {
+      "complete": "Completed"
+    }
   }
 }

@@ -93,9 +93,10 @@ const Information = styled.div`
 
 const LinkCustom = styled.a`
   color: ${WHITE};
-  font-weight: 700;
+  font-style: italic;
   text-decoration: underline;
   cursor: pointer;
+  margin-left: 5px;
 
   &:hover {
     color: ${PRIMARY};
@@ -126,7 +127,7 @@ function Profile() {
             </LinkCustom>
           </Information>
           <Information>
-            Github:{" "}
+            Github:
             <LinkCustom href={profile.github} target={"_blank"}>
               {profile.github}
             </LinkCustom>
