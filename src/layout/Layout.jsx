@@ -15,7 +15,8 @@ const Container = styled.div`
   width: 55%;
   height: 100%;
   background-color: ${SECONDARY};
-  box-shadow: 0px 15px 60px -10px ${SHADOW_COLOR};
+  border-radius: 10px;
+  box-shadow: 20px 30px 60px 0px ${SHADOW_COLOR};
 
   @media ${LARGE_DEVICES} {
     width: 80%;

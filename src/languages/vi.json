@@ -10,7 +10,16 @@
     "age": "tuổi",
     "library": "Thư viện",
     "major": "Chuyên ngành",
-    "status": "Trạng thái"
+    "status": "Trạng thái",
+    "customer": "Khách hàng",
+    "position": "Chức vụ",
+    "product": "Sản phẩm",
+    "platform": "Nền tảng",
+    "languages": "Ngôn ngữ lập trình",
+    "technologies": "Công nghệ",
+    "database": "Cơ sở dữ liệu",
+    "tools": "Công cụ",
+    "mainRoles": "Vai trò chính"
   },
   "education": {
     "institution": {
@@ -23,6 +32,17 @@
     },
     "status": {
       "complete": "Đã tốt nghiệp"
+    }
+  },
+  "experience": {
+    "company": {
+      "vmodev": "Công ty Cổ phần Công nghệ Vmodev Hà Nội"
+    },
+    "description": {
+      "bbb": "BicycleBlueBook.com là một trang web định giá xe đạp đầu tiên, được thiết kế để cung cấp cho những người đam mê đạp xe một cách an toàn nhất và dễ dàng nhất để đánh giá giá trị của một chiếc xe đạp. Người dùng có thể thấy giá trị của một chiếc xe đạp và sau đó mua xe đạp đã qua sử dụng từ đối tác đáng tin cậy nhất."
+    },
+    "time": {
+      "current": "Hiện tại"
     }
   }
 }

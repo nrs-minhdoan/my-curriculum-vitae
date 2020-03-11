@@ -8,26 +8,26 @@ import ProgressBar from "../UI/ProgressBar/ProgressBar";
 import { PRIMARY, WHITE } from "../../themes/colors";
 import { normal, xLarge } from "../../themes/size";
 
-const SkillItem = styled.div`
+const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
   margin: 30px 0px;
 `;
 
-const SkillLogo = styled.img`
+const Logo = styled.img`
   width: 40px;
   height: 40px;
   object-fit: contain;
   margin-right: 20px;
 `;
 
-const SkillDetail = styled.div`
+const Detail = styled.div`
   flex: 1;
   margin-right: 10px;
 `;
 
-const SkillName = styled.div`
+const Name = styled.div`
   font-weight: 700;
   ${xLarge}
   margin-right: 20px;
@@ -40,7 +40,7 @@ const SkillName = styled.div`
   }
 `;
 
-const SkillDescription = styled.div`
+const Description = styled.div`
   color: ${WHITE};
   ${normal}
 `;
@@ -55,7 +55,7 @@ const LinkCustom = styled.a`
   }
 `;
 
-const SkillPoint = styled.div`
+const Point = styled.div`
   flex: 1;
 `;
 
@@ -67,17 +67,17 @@ function ProgrammingLanguage({ data }) {
       {matches =>
         matches ? (
           <Fragment>
-            <SkillItem>
-              <a href={data.link}>
-                <SkillLogo src={data.icon} alt={""} />
+            <Container>
+              <a href={data.link} rel="noopener noreferrer" target={"_blank"}>
+                <Logo src={data.icon} alt={""} />
               </a>
-              <SkillDetail>
-                <SkillName>
+              <Detail>
+                <Name>
                   <LinkCustom href={data.link} target={"_blank"}>
                     {data.name}
                   </LinkCustom>
-                </SkillName>
-                <SkillDescription>
+                </Name>
+                <Description>
                   <span style={{ textDecoration: "underline" }}>
                     {text.label.library}:
                   </span>{" "}
@@ -90,25 +90,25 @@ function ProgrammingLanguage({ data }) {
                     </Fragment>
                   ))}
                   ...
-                </SkillDescription>
-              </SkillDetail>
-            </SkillItem>
-            <SkillPoint>
+                </Description>
+              </Detail>
+            </Container>
+            <Point>
               <ProgressBar points={data.points} />
-            </SkillPoint>
+            </Point>
           </Fragment>
         ) : (
-          <SkillItem>
+          <Container>
             <a href={data.link}>
-              <SkillLogo src={data.icon} alt={""} />
+              <Logo src={data.icon} alt={""} />
             </a>
-            <SkillDetail>
-              <SkillName>
+            <Detail>
+              <Name>
                 <LinkCustom href={data.link} target={"_blank"}>
                   {data.name}
                 </LinkCustom>
-              </SkillName>
-              <SkillDescription>
+              </Name>
+              <Description>
                 <span style={{ textDecoration: "underline" }}>
                   {text.label.library}:
                 </span>{" "}
@@ -121,12 +121,12 @@ function ProgrammingLanguage({ data }) {
                   </Fragment>
                 ))}
                 ...
-              </SkillDescription>
-            </SkillDetail>
-            <SkillPoint>
+              </Description>
+            </Detail>
+            <Point>
               <ProgressBar points={data.points} />
-            </SkillPoint>
-          </SkillItem>
+            </Point>
+          </Container>
         )
       }
     </Responsive>
