@@ -23,8 +23,12 @@ const Logo = styled.img`
   object-fit: contain;
   margin-right: 20px;
   margin-left: 10px;
+  align-self: flex-start;
 
   @media ${SMALL_DEVICES} {
+    align-self: center;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 20px;
   }
 `;
@@ -92,6 +96,14 @@ const Description = styled.div`
   a:hover {
     text-decoration: underline;
   }
+
+  ul {
+    margin-left: 30px;
+
+    li {
+      color: ${PRIMARY};
+    }
+  }
 `;
 
 function Project({ data }) {
@@ -105,7 +117,7 @@ function Project({ data }) {
           <strong>{data.name}</strong>
           <p>
             {data.time +
-              (data.status === "running"
+              (data.status.includes("ing")
                 ? ` - ${text.experience.time.current}`
                 : "")}
           </p>
@@ -118,17 +130,36 @@ function Project({ data }) {
           <p>
             {text.label.position}: <span>{data.position}</span>
           </p>
-          {data.status === "running" && (
-            <p>
+          <p>
+            {text.label.size}: <span>{data.size}</span>
+          </p>
+          {data.product && (
+            <div>
               {text.label.product}:{" "}
-              <a
-                href={data.product}
-                rel="noopener noreferrer"
-                target={"_blank"}
-              >
-                {data.product}
-              </a>
-            </p>
+              {Array.isArray(data.product) ? (
+                <ul>
+                  {data.product.map(item => (
+                    <li key={item}>
+                      <a
+                        href={item}
+                        rel="noopener noreferrer"
+                        target={"_blank"}
+                      >
+                        {item}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <a
+                  href={data.product}
+                  rel="noopener noreferrer"
+                  target={"_blank"}
+                >
+                  {data.product}
+                </a>
+              )}
+            </div>
           )}
           <p>
             {text.label.platform}:{" "}
@@ -177,14 +208,14 @@ function Project({ data }) {
             ))}
             ...
           </p>
-          <p>
-            {text.label.mainRoles}:{" "}
-            {data.mainRoles.map(item => (
-              <p key={item} style={{ marginLeft: "50px" }}>
-                ● {item}
-              </p>
-            ))}
-          </p>
+          <div>
+            {text.label.tasks}:{" "}
+            <ul>
+              {data.tasks.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
         </Description>
       </Detail>
     </Container>

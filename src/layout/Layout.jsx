@@ -55,7 +55,7 @@ function Layout() {
         return <Certifications />;
 
       default:
-        return <Skills />;
+        return null;
     }
   }, [tab]);
 
