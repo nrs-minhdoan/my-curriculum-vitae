@@ -8,6 +8,21 @@
   "label": {
     "dob": "Ngày sinh",
     "age": "tuổi",
-    "library": "Thư viện"
+    "library": "Thư viện",
+    "major": "Chuyên ngành",
+    "status": "Trạng thái"
+  },
+  "education": {
+    "institution": {
+      "haui": "Đại học Công Nghiệp Hà Nội",
+      "color_me": "Color ME"
+    },
+    "major": {
+      "software_engineering": "Kỹ thuật phần mềm",
+      "react_native": "Lập trình ứng dụng di động bằng React-Native"
+    },
+    "status": {
+      "complete": "Đã tốt nghiệp"
+    }
   }
 }
