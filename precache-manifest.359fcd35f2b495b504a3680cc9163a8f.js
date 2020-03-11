@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59959409a9dfe3b787754dc77c15be9f",
+    "revision": "139e2522b7a94976f1a489d1fe81fa2b",
     "url": "/my-curriculum-vitae/index.html"
   },
   {
-    "revision": "1b8dac0eafe86e049419",
-    "url": "/my-curriculum-vitae/static/css/main.af170676.chunk.css"
+    "revision": "2c7c0f53842addb4e573",
+    "url": "/my-curriculum-vitae/static/css/main.021c23a0.chunk.css"
   },
   {
     "revision": "2180669ef5597fdfe13b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-curriculum-vitae/static/js/2.6e6d2f23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b8dac0eafe86e049419",
-    "url": "/my-curriculum-vitae/static/js/main.b5080856.chunk.js"
+    "revision": "2c7c0f53842addb4e573",
+    "url": "/my-curriculum-vitae/static/js/main.f4e0b586.chunk.js"
   },
   {
     "revision": "e36b9aae5d7330533ce9",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-curriculum-vitae/static/media/ic_next.01400a9f.svg"
   },
   {
+    "revision": "0ee787cc34b2159dd5e6b4e66f0af3dc",
+    "url": "/my-curriculum-vitae/static/media/ic_photobook.0ee787cc.svg"
+  },
+  {
     "revision": "428e6fb07a92e1040d1214c88264b7bd",
     "url": "/my-curriculum-vitae/static/media/ic_react.428e6fb0.svg"
   },
@@ -60,12 +64,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-curriculum-vitae/static/media/ic_vmodev.2828e47f.svg"
   },
   {
+    "revision": "0c51d57d14a1bbe49aa6209f1f583f4d",
+    "url": "/my-curriculum-vitae/static/media/ic_vn24_customer.0c51d57d.svg"
+  },
+  {
+    "revision": "7008b201fdb7a724c703ec3a513b681e",
+    "url": "/my-curriculum-vitae/static/media/ic_vn24_helper.7008b201.svg"
+  },
+  {
     "revision": "4f63cffd76dfe0e0d9280643c57a3cf3",
     "url": "/my-curriculum-vitae/static/media/img_avatar.4f63cffd.jpg"
   },
   {
     "revision": "3981e386edd43c921b6f5aaf06a4bb9b",
     "url": "/my-curriculum-vitae/static/media/img_bbb.3981e386.png"
+  },
+  {
+    "revision": "b75c727b64973f6fcee183fd36054af5",
+    "url": "/my-curriculum-vitae/static/media/img_bbb_crm.b75c727b.png"
   },
   {
     "revision": "d15e771cdd1cd41cf5e14c0aa142ffa5",
