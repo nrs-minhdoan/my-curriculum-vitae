@@ -13,13 +13,14 @@
     "status": "Status",
     "customer": "Customer",
     "position": "Position",
+    "size": "Team Size",
     "product": "Product",
     "platform": "Platform",
     "languages": "Programming Languages",
     "technologies": "Technologies",
     "database": "Database",
     "tools": "Tools",
-    "mainRoles": "Main Roles"
+    "tasks": "Tasks"
   },
   "education": {
     "institution": {
@@ -39,7 +40,11 @@
       "vmodev": "Vmodev Hanoi Technology Joint Stock Company"
     },
     "description": {
-      "bbb": "BicycleBlueBook.com is a first of its kind valuation authority, designed to provide cycling enthusiasts with the safest and the easiest way to assess the value of a bike. User can see value of a bike and then buy used bikes from most trusted partner."
+      "bbb": "BicycleBlueBook.com is a first of its kind valuation authority, designed to provide cycling enthusiasts with the safest and the easiest way to assess the value of a bike. User can see value of a bike and then buy used bikes from most trusted partner.",
+      "bbb_crm": "Admin.BicycleBlueBook.com is a customer relationship management web application. An approach to manage a company's interaction with current and potential customers. It uses data analysis about customers' history with a company to improve business relationships with customers, specifically focusing on customer retention and ultimately driving sales growth.",
+      "photobook": "Photobook AI is an application for uploading images, and create a photobook within a click. All photo is being processed by AI to get best crop position.",
+      "vn24_customer": "ViecNha 24H Customer is the the application to support delivery of chores.",
+      "vn24_helper": "ViecNha 24H Helper is the the application to support receipt of chores."
     },
     "time": {
       "current": "Current"
