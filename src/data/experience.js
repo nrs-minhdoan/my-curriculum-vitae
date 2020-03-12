@@ -159,6 +159,97 @@ const experience = [
           "Profile",
           "Order"
         ]
+      },
+      {
+        icon: require("../assets/images/ic_my_coach.svg"),
+        customer: "MyCoach.work",
+        position: "Front-End Developer",
+        name: "My Coach Landing Page",
+        size: 5,
+        status: "drop",
+        product: "http://mycoach.vmo.group",
+        description: "my_coach",
+        time: "01/2020 - 02/2020",
+        platform: ["Web Application"],
+        languages: ["Javascript"],
+        technologies: [
+          "NextJS",
+          "Google reCAPTCHA",
+          "Google Sheets API",
+          "NodeJS",
+          "ExpressJS"
+        ],
+        database: ["Google Sheets"],
+        tools: ["Bitbucket", "Slack", "Skype"],
+        tasks: ["Home", "Supporter", "Policy"]
+      }
+    ]
+  },
+  {
+    company: "acedev",
+    logo: require("../assets/images/img_acedev.png"),
+    projects: [
+      {
+        icon: require("../assets/images/img_mec_crm.png"),
+        customer: "Mechanics Marketplace",
+        position: "Front-End Developer",
+        size: 3,
+        name: "Mechanics Marketplace CRM",
+        status: "finish",
+        product: "https://mechanicsmarketplace.com/admin",
+        description: "mec_crm",
+        time: "05/2019 - 08/2019",
+        platform: ["Web Application"],
+        languages: ["Javascript"],
+        technologies: [
+          "ReactJS",
+          "React Router",
+          "Mobx",
+          "Material Dashboard PRO React",
+          "NodeJS",
+          "ExpressJS"
+        ],
+        database: ["MongoDB", "Redis"],
+        tools: ["Bitbucket", "Jira", "Slack", "Skype"],
+        tasks: [
+          "Dashboard",
+          "Login",
+          "Forgot Password",
+          "Reset Password",
+          "Change Password",
+          "Notifications",
+          "Business",
+          "Job Seeker",
+          "User Console",
+          "Profile",
+          "Sale Rep",
+          "Agreements",
+          "Common List",
+          "Notification Templates",
+          "Page Contents",
+          "Promotion Code",
+          "Platform Fee",
+          "Subscriptions",
+          "File Management",
+          "Feedback Management"
+        ]
+      },
+      {
+        icon: require("../assets/images/img_mec.png"),
+        customer: "Mechanics Marketplace",
+        position: "Front-End Developer",
+        size: 4,
+        name: "Mechanics Marketplace",
+        status: "finish",
+        product: "https://mechanicsmarketplace.com",
+        description: "mec",
+        time: "04/2019 - 06/2019",
+        platform: ["Web Application"],
+        languages: ["Javascript"],
+        technologies: ["NodeJS", "ExpressJS", "Pug"],
+        database: ["MongoDB", "Redis"],
+        tools: ["Bitbucket", "Jira", "Slack", "Skype"],
+        tasks: ["Home"]
       }
     ]
   }

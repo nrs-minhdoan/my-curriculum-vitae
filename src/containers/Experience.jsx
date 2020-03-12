@@ -24,6 +24,11 @@ const Title = styled.div`
   align-items: center;
   margin-left: 10px;
 
+  ${props =>
+    props.first
+      ? ""
+      : `margin-top: 20px; padding-top: 20px; border-top: solid 1px ${PRIMARY};`}
+
   @media ${SMALL_DEVICES} {
     flex-direction: column;
 
@@ -56,9 +61,9 @@ function Experience() {
 
   return (
     <Container>
-      {experience.map(item => (
+      {experience.map((item, index) => (
         <Fragment key={item.company}>
-          <Title>
+          <Title first={index === 0}>
             <Logo src={item.logo} alt={""} />
             <p>{text.experience.company[item.company]}</p>
           </Title>
