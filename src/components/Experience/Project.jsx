@@ -134,7 +134,7 @@ function Project({ data }) {
             {text.label.size}: <span>{data.size}</span>
           </p>
           {data.product && (
-            <div>
+            <div style={{ marginBottom: "5px" }}>
               {text.label.product}:{" "}
               {Array.isArray(data.product) ? (
                 <ul>

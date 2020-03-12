@@ -37,14 +37,18 @@
   },
   "experience": {
     "company": {
-      "vmodev": "Vmodev Hanoi Technology Joint Stock Company"
+      "vmodev": "Vmodev Hanoi Technology Joint Stock Company",
+      "acedev": "Acedev Technology Joint Stock Company (Freelancer)"
     },
     "description": {
       "bbb": "BicycleBlueBook.com is a first of its kind valuation authority, designed to provide cycling enthusiasts with the safest and the easiest way to assess the value of a bike. User can see value of a bike and then buy used bikes from most trusted partner.",
       "bbb_crm": "Admin.BicycleBlueBook.com is a customer relationship management web application. An approach to manage a company's interaction with current and potential customers. It uses data analysis about customers' history with a company to improve business relationships with customers, specifically focusing on customer retention and ultimately driving sales growth.",
       "photobook": "Photobook AI is an application for uploading images, and create a photobook within a click. All photo is being processed by AI to get best crop position.",
       "vn24_customer": "ViecNha 24H Customer is the the application to support delivery of chores.",
-      "vn24_helper": "ViecNha 24H Helper is the the application to support receipt of chores."
+      "vn24_helper": "ViecNha 24H Helper is the the application to support receipt of chores.",
+      "my_coach": "MyCoach.work is a personal support service that helps you organize your concerns and issues, acquire the knowledge, skills, and ideas necessary to achieve your goals, and act.",
+      "mec": "MechanicsMarketplace.com is a website for auto repair industry.",
+      "mec_crm": "MechanicsMarketplace.com/Admin is a customer relationship management web application for auto repair industry."
     },
     "time": {
       "current": "Current"
