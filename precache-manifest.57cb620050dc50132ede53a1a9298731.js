@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "237ae8ad67dbfd485c4f03489e770929",
+    "revision": "f93ada6cc4b7475a97a23edc5f7039aa",
     "url": "/my-curriculum-vitae/index.html"
   },
   {
-    "revision": "c272005a3a953f4b761c",
+    "revision": "1ffac0031b6e6c3e5d04",
     "url": "/my-curriculum-vitae/static/css/main.021c23a0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-curriculum-vitae/static/js/2.6e6d2f23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c272005a3a953f4b761c",
-    "url": "/my-curriculum-vitae/static/js/main.e651f850.chunk.js"
+    "revision": "1ffac0031b6e6c3e5d04",
+    "url": "/my-curriculum-vitae/static/js/main.b20d6641.chunk.js"
   },
   {
     "revision": "e36b9aae5d7330533ce9",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1949d232de3967abfd40a83cbbde997c",
     "url": "/my-curriculum-vitae/static/media/ic_javascript.1949d232.svg"
+  },
+  {
+    "revision": "516d5636db408ef39063640d580314f7",
+    "url": "/my-curriculum-vitae/static/media/ic_my_coach.516d5636.svg"
   },
   {
     "revision": "01400a9f880faf48720d60acf3708954",
@@ -72,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-curriculum-vitae/static/media/ic_vn24_helper.7008b201.svg"
   },
   {
+    "revision": "4a4c6249746cb5befffbfad7c06d14fd",
+    "url": "/my-curriculum-vitae/static/media/img_acedev.4a4c6249.png"
+  },
+  {
     "revision": "4f63cffd76dfe0e0d9280643c57a3cf3",
     "url": "/my-curriculum-vitae/static/media/img_avatar.4f63cffd.jpg"
   },
@@ -90,5 +98,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8c65e3e65db73edce0537ea06c75b021",
     "url": "/my-curriculum-vitae/static/media/img_haui.8c65e3e6.png"
+  },
+  {
+    "revision": "864d7443ba0b74494bd4d839ea5aa1e0",
+    "url": "/my-curriculum-vitae/static/media/img_mec.864d7443.png"
+  },
+  {
+    "revision": "ecca5263af08caf03ba3a765bf8314e1",
+    "url": "/my-curriculum-vitae/static/media/img_mec_crm.ecca5263.png"
   }
 ]);
