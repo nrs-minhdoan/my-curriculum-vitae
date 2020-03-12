@@ -165,7 +165,7 @@ const experience = [
         icon: require("../assets/images/ic_my_coach.svg"),
         customer: "MyCoach.work",
         position: "Front-End Developer",
-        name: "My Coach Landing Page",
+        name: "My Coach",
         size: 5,
         status: "drop",
         product: "http://mycoach.vmo.group",
