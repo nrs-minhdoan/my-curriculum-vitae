@@ -1,12 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
+h1,
+ul,
 p {
-  margin: 0px;
-}
-
-ul {
   margin: 0px;
 }
