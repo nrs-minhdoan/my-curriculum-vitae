@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+import certifications from "../data/certifications";
+import Award from "../components/Certifications/Award";
+
 import { fadingIn } from "../themes/animations";
 
 const Container = styled.div`
@@ -9,7 +12,13 @@ const Container = styled.div`
 `;
 
 function Certifications() {
-  return <Container>Certifications</Container>;
+  return (
+    <Container>
+      {certifications.map((item, index) => (
+        <Award key={`award${index + 1}`} data={item} />
+      ))}
+    </Container>
+  );
 }
 
 export default Certifications;

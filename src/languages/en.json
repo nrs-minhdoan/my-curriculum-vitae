@@ -20,7 +20,15 @@
     "technologies": "Technologies",
     "database": "Database",
     "tools": "Tools",
-    "tasks": "Tasks"
+    "tasks": "Tasks",
+    "company": "Company"
+  },
+  "company": {
+    "vmodev": "Vmodev Hanoi Technology Joint Stock Company",
+    "acedev": "Acedev Technology Joint Stock Company (Freelancer)"
+  },
+  "time": {
+    "current": "Current"
   },
   "education": {
     "institution": {
@@ -36,10 +44,6 @@
     }
   },
   "experience": {
-    "company": {
-      "vmodev": "Vmodev Hanoi Technology Joint Stock Company",
-      "acedev": "Acedev Technology Joint Stock Company (Freelancer)"
-    },
     "description": {
       "bbb": "BicycleBlueBook.com is a first of its kind valuation authority, designed to provide cycling enthusiasts with the safest and the easiest way to assess the value of a bike. User can see value of a bike and then buy used bikes from most trusted partner.",
       "bbb_crm": "Admin.BicycleBlueBook.com is a customer relationship management web application. An approach to manage a company's interaction with current and potential customers. It uses data analysis about customers' history with a company to improve business relationships with customers, specifically focusing on customer retention and ultimately driving sales growth.",
@@ -49,9 +53,11 @@
       "my_coach": "MyCoach.work is a personal support service that helps you organize your concerns and issues, acquire the knowledge, skills, and ideas necessary to achieve your goals, and act.",
       "mec": "MechanicsMarketplace.com is a website for auto repair industry.",
       "mec_crm": "MechanicsMarketplace.com/Admin is a customer relationship management web application for auto repair industry."
-    },
-    "time": {
-      "current": "Current"
+    }
+  },
+  "certifications": {
+    "description": {
+      "vmodev_shinning_star_2019": "Vmodev Award for you because of ceaseless dedication during that time. Wish you good health to contribute to the development of company. We believe in you."
     }
   }
 }

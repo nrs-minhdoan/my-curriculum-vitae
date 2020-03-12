@@ -1,6 +1,7 @@
 const experience = [
   {
     company: "vmodev",
+    link: "https://www.vmodev.com",
     logo: require("../assets/images/ic_vmodev.svg"),
     projects: [
       {
@@ -187,6 +188,7 @@ const experience = [
   },
   {
     company: "acedev",
+    link: "https://acedev.vn",
     logo: require("../assets/images/img_acedev.png"),
     projects: [
       {

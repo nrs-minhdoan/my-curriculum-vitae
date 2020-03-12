@@ -21,7 +21,7 @@ const Container = styled.div`
 `;
 
 const LanguageMenu = styled.div`
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   display: flex;
