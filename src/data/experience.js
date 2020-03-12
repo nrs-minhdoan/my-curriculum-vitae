@@ -15,7 +15,7 @@ const experience = [
         description: "vn24_helper",
         time: "11/2019",
         platform: ["Mobile Application"],
-        languages: ["Javascript", "Typescript"],
+        languages: ["JavaScript", "TypeScript"],
         technologies: [
           "React Native",
           "React Navigation",
@@ -53,7 +53,7 @@ const experience = [
         description: "vn24_customer",
         time: "11/2019",
         platform: ["Mobile Application"],
-        languages: ["Javascript", "Typescript"],
+        languages: ["JavaScript", "TypeScript"],
         technologies: [
           "React Native",
           "React Navigation",
@@ -79,7 +79,7 @@ const experience = [
         description: "photobook",
         time: "10/2019",
         platform: ["Web Application"],
-        languages: ["Javascript", "Typescript"],
+        languages: ["JavaScript", "TypeScript"],
         technologies: ["NextJS", "Redux", "Redux-Saga", "NodeJS", "ExpressJS"],
         database: ["MySql", "MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack"],
@@ -96,7 +96,7 @@ const experience = [
         description: "bbb_crm",
         time: "09/2018",
         platform: ["Web Application"],
-        languages: ["Javascript", "Typescript", "Java"],
+        languages: ["JavaScript", "TypeScript", "Java"],
         technologies: [
           "ReactJS",
           "React Router",
@@ -136,7 +136,7 @@ const experience = [
         description: "bbb",
         time: "02/2018",
         platform: ["Web Application"],
-        languages: ["Javascript", "Typescript", "Java"],
+        languages: ["JavaScript", "TypeScript", "Java"],
         technologies: [
           "ReactJS",
           "React Router",
@@ -172,7 +172,7 @@ const experience = [
         description: "my_coach",
         time: "01/2020 - 02/2020",
         platform: ["Web Application"],
-        languages: ["Javascript"],
+        languages: ["JavaScript"],
         technologies: [
           "NextJS",
           "Google reCAPTCHA",
@@ -202,7 +202,7 @@ const experience = [
         description: "mec_crm",
         time: "05/2019 - 08/2019",
         platform: ["Web Application"],
-        languages: ["Javascript"],
+        languages: ["JavaScript"],
         technologies: [
           "ReactJS",
           "React Router",
@@ -247,7 +247,7 @@ const experience = [
         description: "mec",
         time: "04/2019 - 06/2019",
         platform: ["Web Application"],
-        languages: ["Javascript"],
+        languages: ["JavaScript"],
         technologies: ["NodeJS", "ExpressJS", "Pug"],
         database: ["MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack", "Skype"],
