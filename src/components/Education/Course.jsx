@@ -37,7 +37,6 @@ const Name = styled.div`
   justify-content: space-between;
   font-weight: 700;
   ${xLarge}
-  margin-right: 20px;
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: dashed 1px ${PRIMARY};
@@ -66,6 +65,7 @@ const Name = styled.div`
 `;
 
 const Description = styled.div`
+  word-break: break-word;
   color: ${WHITE};
   ${large}
 

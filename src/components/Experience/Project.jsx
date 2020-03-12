@@ -74,6 +74,7 @@ const Name = styled.div`
 `;
 
 const Description = styled.div`
+  word-break: break-word;
   color: ${WHITE};
   ${large}
 

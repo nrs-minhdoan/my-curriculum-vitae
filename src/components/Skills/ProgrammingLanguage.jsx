@@ -6,7 +6,7 @@ import Responsive from "../Responsive/Responsive";
 import ProgressBar from "../UI/ProgressBar/ProgressBar";
 
 import { PRIMARY, WHITE } from "../../themes/colors";
-import { normal, xLarge } from "../../themes/size";
+import { SMALL_DEVICES, normal, xLarge } from "../../themes/size";
 
 const Container = styled.div`
   width: 100%;
@@ -39,9 +39,14 @@ const Name = styled.div`
   a {
     color: ${PRIMARY};
   }
+
+  @media ${SMALL_DEVICES} {
+    margin-right: 0px;
+  }
 `;
 
 const Description = styled.div`
+  word-break: break-word;
   color: ${WHITE};
   ${normal}
 `;

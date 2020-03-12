@@ -6,7 +6,7 @@ import Responsive from "../Responsive/Responsive";
 import ProgressBar from "../UI/ProgressBar/ProgressBar";
 
 import { PRIMARY, WHITE } from "../../themes/colors";
-import { normal, xLarge } from "../../themes/size";
+import { SMALL_DEVICES, normal, xLarge } from "../../themes/size";
 
 const Container = styled.div`
   width: 100%;
@@ -25,13 +25,16 @@ const Logo = styled.img`
 
 const Detail = styled.div`
   flex: 1;
-  margin-right: 10px;
+  margin-right: 20px;
+
+  @media ${SMALL_DEVICES} {
+    margin-right: 0px;
+  }
 `;
 
 const Name = styled.div`
   font-weight: 700;
   ${xLarge}
-  margin-right: 20px;
   margin-bottom: 5px;
   padding-bottom: 5px;
   border-bottom: dashed 1px ${PRIMARY};
@@ -42,6 +45,7 @@ const Name = styled.div`
 `;
 
 const Description = styled.div`
+  word-break: break-word;
   color: ${WHITE};
   ${normal}
 `;
@@ -58,6 +62,11 @@ const LinkCustom = styled.a`
 
 const Point = styled.div`
   flex: 1;
+  margin-top: 5px;
+
+  @media ${SMALL_DEVICES} {
+    margin-top: 0px;
+  }
 `;
 
 function Framework({ data }) {
