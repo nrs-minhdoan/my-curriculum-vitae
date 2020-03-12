@@ -10,7 +10,7 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   margin: 30px 0px;
 
   @media ${SMALL_DEVICES} {
@@ -23,7 +23,7 @@ const Logo = styled.img`
   object-fit: contain;
   margin-right: 20px;
   margin-left: 10px;
-  align-self: flex-start;
+  margin-top: 5px;
 
   @media ${SMALL_DEVICES} {
     align-self: center;
@@ -35,7 +35,6 @@ const Logo = styled.img`
 
 const Detail = styled.div`
   flex: 1;
-  margin-right: 10px;
 `;
 
 const Name = styled.div`
@@ -117,9 +116,7 @@ function Project({ data }) {
           <strong>{data.name}</strong>
           <p>
             {data.time +
-              (data.status.includes("ing")
-                ? ` - ${text.experience.time.current}`
-                : "")}
+              (data.status.includes("ing") ? ` - ${text.time.current}` : "")}
           </p>
         </Name>
         <Description>

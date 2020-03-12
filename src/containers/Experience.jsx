@@ -15,10 +15,6 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-  color: ${PRIMARY};
-  font-weight: 700;
-  ${xLarge}
-  text-transform: uppercase;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,30 +25,48 @@ const Title = styled.div`
       ? ""
       : `margin-top: 20px; padding-top: 20px; border-top: solid 1px ${PRIMARY};`}
 
+  a {
+    display: flex;
+    align-items: center;
+    color: ${PRIMARY};
+    font-weight: 700;
+    ${xLarge}
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  a:first-of-type {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: solid 1px ${WHITE};
+  }
+
   @media ${SMALL_DEVICES} {
     flex-direction: column;
 
-    p {
+    a {
       text-align: center;
       padding-bottom: 10px;
       margin-bottom: 10px;
       border-bottom: solid 1px ${WHITE};
+    }
+
+    a:first-of-type {
+      padding-right: 0px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+      border-right: none;
+      border-bottom: none;
     }
   }
 `;
 
 const Logo = styled.img`
   width: 60px;
-  padding-right: 10px;
-  margin-right: 10px;
-  border-right: solid 1px ${WHITE};
 
   @media ${SMALL_DEVICES} {
     width: 150px;
-    padding-right: 0px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    border-right: none;
   }
 `;
 
@@ -64,8 +78,12 @@ function Experience() {
       {experience.map((item, index) => (
         <Fragment key={item.company}>
           <Title first={index === 0}>
-            <Logo src={item.logo} alt={""} />
-            <p>{text.experience.company[item.company]}</p>
+            <a href={item.link} rel="noopener noreferrer" target={"_blank"}>
+              <Logo src={item.logo} alt={""} />
+            </a>
+            <a href={item.link} rel="noopener noreferrer" target={"_blank"}>
+              {text.company[item.company]}
+            </a>
           </Title>
           {item.projects.map(project => (
             <Project key={project.name} data={project} />

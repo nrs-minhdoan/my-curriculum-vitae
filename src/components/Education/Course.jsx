@@ -9,31 +9,25 @@ import { SMALL_DEVICES, normal, large, xLarge } from "../../themes/size";
 const Container = styled.div`
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin: 30px 0px;
-
-  @media ${SMALL_DEVICES} {
-    align-items: flex-start;
-  }
 `;
 
 const Logo = styled.img`
   width: 80px;
   height: 80px;
   object-fit: contain;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-right: 20px;
 
   @media ${SMALL_DEVICES} {
     width: 60px;
     height: 60px;
-    margin-top: 5px;
   }
 `;
 
 const Detail = styled.div`
   flex: 1;
-  margin-right: 10px;
 `;
 
 const Name = styled.div`

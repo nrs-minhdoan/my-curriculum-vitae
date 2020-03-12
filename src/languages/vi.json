@@ -20,7 +20,15 @@
     "technologies": "Công nghệ",
     "database": "Cơ sở dữ liệu",
     "tools": "Công cụ",
-    "tasks": "Nhiệm vụ"
+    "tasks": "Nhiệm vụ",
+    "company": "Công ty"
+  },
+  "company": {
+    "vmodev": "Công ty Cổ phần Công nghệ Vmodev Hà Nội",
+    "acedev": "Công ty Cổ phần Công nghệ Acedev (Freelancer)"
+  },
+  "time": {
+    "current": "Hiện tại"
   },
   "education": {
     "institution": {
@@ -36,10 +44,6 @@
     }
   },
   "experience": {
-    "company": {
-      "vmodev": "Công ty Cổ phần Công nghệ Vmodev Hà Nội",
-      "acedev": "Công ty Cổ phần Công nghệ Acedev (Freelancer)"
-    },
     "description": {
       "bbb": "BicycleBlueBook.com là một trang web định giá xe đạp đầu tiên, được thiết kế để cung cấp cho những người đam mê đạp xe một cách an toàn nhất và dễ dàng nhất để đánh giá giá trị của một chiếc xe đạp. Người dùng có thể thấy giá trị của một chiếc xe đạp và sau đó mua xe đạp đã qua sử dụng từ đối tác đáng tin cậy nhất.",
       "bbb_crm": "Admin.BicycleBlueBook.com là một ứng dụng web quản lý quan hệ khách hàng. Cách tiếp cận để quản lý sự tương tác của công ty với khách hàng hiện tại và tiềm năng. Nó sử dụng phân tích dữ liệu về lịch sử của khách hàng với một công ty để cải thiện mối quan hệ kinh doanh với khách hàng, đặc biệt tập trung vào việc giữ chân khách hàng và cuối cùng thúc đẩy tăng trưởng doanh số.",
@@ -49,9 +53,11 @@
       "my_coach": "MyCoach.work là một dịch vụ hỗ trợ cá nhân giúp bạn sắp xếp những lo lắng và vấn đề của mình, tiếp thu kiến ​​thức, kỹ năng và ý tưởng cần thiết để đạt được mục tiêu và hành động của bạn.",
       "mec": "MechanicsMarketplace.com là một trang web dành cho ngành sửa chữa ô tô.",
       "mec_crm": "MechanicsMarketplace.com/Admin là một ứng dụng web quản lý quan hệ khách hàng cho ngành sửa chữa ô tô."
-    },
-    "time": {
-      "current": "Hiện tại"
+    }
+  },
+  "certifications": {
+    "description": {
+      "vmodev_shinning_star_2019": "Giải thưởng Vmodev dành cho bạn vì sự cống hiến không ngừng nghỉ trong thời gian qua. Chúc bạn mạnh khỏe để đóng góp cho sự phát triển của công ty. Chúng tôi tin ở bạn."
     }
   }
 }

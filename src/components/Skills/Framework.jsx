@@ -11,7 +11,7 @@ import { normal, xLarge } from "../../themes/size";
 const Container = styled.div`
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin: 30px 0px;
 `;
 
@@ -20,6 +20,7 @@ const Logo = styled.img`
   height: 40px;
   object-fit: contain;
   margin-right: 20px;
+  margin-top: 5px;
 `;
 
 const Detail = styled.div`
