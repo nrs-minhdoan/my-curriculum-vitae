@@ -137,7 +137,7 @@ const skills = {
     {
       points: 80,
       icon: require("../assets/images/ic_javascript.svg"),
-      name: "Javascript",
+      name: "JavaScript",
       link: "#",
       libraries: [
         {
@@ -174,7 +174,7 @@ const skills = {
     {
       points: 60,
       icon: require("../assets/images/ic_typescript.svg"),
-      name: "Typescript",
+      name: "TypeScript",
       link: "https://www.typescriptlang.org",
       libraries: [
         {
