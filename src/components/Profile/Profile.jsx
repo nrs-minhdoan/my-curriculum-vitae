@@ -70,7 +70,7 @@ const Avatar = styled.div`
   }
 `;
 
-const Position = styled.div`
+const Position = styled.h1`
   color: ${PRIMARY};
   font-weight: 700;
   ${xLarge}
