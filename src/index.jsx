@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import * as serviceWorker from "./serviceWorker";
-import './helpers/ga-setup';
 import App from "./App";
 
+import './helpers/ga-setup';
 import "./index.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
