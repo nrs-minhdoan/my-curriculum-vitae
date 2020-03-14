@@ -4,7 +4,7 @@ function initializeReactGA() {
   ReactGA.initialize("UA-160662152-1", {
     alwaysSendToDefaultTracker: false
   });
-  ReactGA.pageview(window.location.href);
+  ReactGA.pageview(window.location.pathname);
 }
 
 initializeReactGA();
