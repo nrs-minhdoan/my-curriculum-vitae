@@ -40,7 +40,7 @@ function Layout() {
     setTab(value);
   }, []);
 
-  const _handleRender = useCallback(() => {
+  const _handleRenderContent = useCallback(() => {
     switch (tab) {
       case 0:
         return <Skills />;
@@ -62,7 +62,7 @@ function Layout() {
   return (
     <Container>
       <Tabs data={tabs} active={tab} onChange={_handleChangeTab} />
-      {_handleRender()}
+      {_handleRenderContent()}
     </Container>
   );
 }

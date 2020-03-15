@@ -3,6 +3,8 @@ const experience = [
     company: "vmodev",
     link: "https://www.vmodev.com",
     logo: require("../assets/images/ic_vmodev.svg"),
+    status: "working",
+    time: "08/2018",
     projects: [
       {
         icon: require("../assets/images/ic_vn24_helper.svg"),
@@ -190,6 +192,8 @@ const experience = [
     company: "acedev",
     link: "https://acedev.vn",
     logo: require("../assets/images/img_acedev.png"),
+    status: "freelancer",
+    time: null,
     projects: [
       {
         icon: require("../assets/images/img_mec_crm.png"),

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useCallback } from "react";
 import styled from "styled-components";
 
 import experience from "../data/experience";
@@ -6,7 +6,7 @@ import useLanguage from "../hooks/useLanguage";
 import Project from "../components/Experience/Project";
 
 import { PRIMARY, WHITE } from "../themes/colors";
-import { SMALL_DEVICES, xLarge } from "../themes/size";
+import { SMALL_DEVICES, large, xLarge } from "../themes/size";
 import { fadingIn } from "../themes/animations";
 
 const Container = styled.div`
@@ -47,9 +47,6 @@ const Title = styled.div`
 
     a {
       text-align: center;
-      padding-bottom: 10px;
-      margin-bottom: 10px;
-      border-bottom: solid 1px ${WHITE};
     }
 
     a:first-of-type {
@@ -70,8 +67,38 @@ const Logo = styled.img`
   }
 `;
 
+const Time = styled.div`
+  color: ${WHITE};
+  ${large}
+  margin-left: 10px;
+  margin-top: 5px;
+
+  @media ${SMALL_DEVICES} {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    border-bottom: solid 1px ${WHITE};
+  }
+`;
+
 function Experience() {
   const text = useLanguage();
+
+  const _handleRenderTime = useCallback(
+    data => {
+      switch (data.status) {
+        case "working":
+          return data.time + " - " + text.time.current;
+
+        case "freelancer":
+          return "Freelancer";
+
+        default:
+          return data.time;
+      }
+    },
+    [text]
+  );
 
   return (
     <Container>
@@ -85,6 +112,7 @@ function Experience() {
               {text.company[item.company]}
             </a>
           </Title>
+          <Time>({_handleRenderTime(item)})</Time>
           {item.projects.map(project => (
             <Project key={project.name} data={project} />
           ))}
