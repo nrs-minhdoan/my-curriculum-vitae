@@ -70,13 +70,12 @@ const Logo = styled.img`
 const Time = styled.div`
   color: ${WHITE};
   ${large}
-  margin-left: 10px;
+  padding-left: 10px;
   margin-top: 5px;
 
   @media ${SMALL_DEVICES} {
     text-align: center;
     padding-bottom: 10px;
-    margin-left: 0px;
     border-bottom: solid 1px ${WHITE};
   }
 `;
