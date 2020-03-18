@@ -160,7 +160,8 @@ const experience = [
           "Login",
           "Register",
           "Profile",
-          "Order"
+          "Order",
+          "Message"
         ]
       },
       {

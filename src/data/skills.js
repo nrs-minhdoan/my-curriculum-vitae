@@ -141,16 +141,20 @@ const skills = {
       link: "#",
       libraries: [
         {
+          name: "Axios",
+          link: "https://github.com/axios/axios"
+        },
+        {
+          name: "Socket.IO",
+          link: "https://socket.io"
+        },
+        {
           name: "Lodash",
           link: "https://lodash.com"
         },
         {
           name: "Moment",
           link: "https://momentjs.com"
-        },
-        {
-          name: "Axios",
-          link: "https://github.com/axios/axios"
         },
         {
           name: "CryptoJS",
