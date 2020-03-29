@@ -7,6 +7,53 @@ const experience = [
     time: "08/2018",
     projects: [
       {
+        icon: require("../assets/images/img_chubb_cms.png"),
+        customer: "Chubb Life",
+        position: "Front-End Developer",
+        name: "Chubb CMS",
+        size: 8,
+        status: "building",
+        product: "http://cms-chubb.vmo.group",
+        description: "chubb_cms",
+        time: "03/2020",
+        platform: ["Web Application"],
+        languages: ["TypeScript"],
+        technologies: ["Angular 7", "Ng-Zorro", "RxJS", "NodeJS", "ExpressJS"],
+        database: ["MongoDB", "Redis"],
+        tools: ["Bitbucket", "Jira", "Slack"],
+        tasks: [
+          "Platform Statistic",
+          "User List",
+          "Create User",
+          "Role & Permission"
+        ]
+      },
+      {
+        icon: require("../assets/images/img_chubb.png"),
+        customer: "Chubb Life",
+        position: "Front-End Developer",
+        name: "Chubb",
+        size: 8,
+        status: "building",
+        product: "http://chubb.vmo.group",
+        description: "chubb",
+        time: "03/2020",
+        platform: ["Web Application"],
+        languages: ["TypeScript"],
+        technologies: [
+          "Angular 7",
+          "Angular Universal",
+          "Ng-Zorro",
+          "Bootstrap",
+          "RxJS",
+          "NodeJS",
+          "ExpressJS"
+        ],
+        database: ["MongoDB", "Redis"],
+        tools: ["Bitbucket", "Jira", "Slack"],
+        tasks: ["Full Articles"]
+      },
+      {
         icon: require("../assets/images/ic_vn24_helper.svg"),
         customer: "Giup viec 365",
         position: "Mobile Application Developer",

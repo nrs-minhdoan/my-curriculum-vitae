@@ -104,6 +104,16 @@ const skills = {
       ]
     },
     {
+      points: 10,
+      icon: require("../assets/images/ic_angular.svg"),
+      name: "Angular",
+      link: "https://angular.io",
+      libraries: [
+        { name: "Angular 7", link: "https://v7.angular.io" },
+        { name: "Ng-Zorro", link: "https://ng.ant.design" }
+      ]
+    },
+    {
       points: 60,
       icon: require("../assets/images/ic_bootstrap.svg"),
       name: "Bootstrap",
@@ -156,6 +166,7 @@ const skills = {
           name: "Moment",
           link: "https://momentjs.com"
         },
+        { name: "RxJS", link: "https://rxjs-dev.firebaseapp.com" },
         {
           name: "CryptoJS",
           link: "https://cryptojs.gitbook.io"
