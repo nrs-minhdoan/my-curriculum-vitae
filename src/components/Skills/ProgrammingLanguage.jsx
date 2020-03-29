@@ -2,17 +2,35 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 
 import useLanguage from "../../hooks/useLanguage";
-import Responsive from "../Responsive/Responsive";
 import ProgressBar from "../UI/ProgressBar/ProgressBar";
 
 import { PRIMARY, WHITE } from "../../themes/colors";
-import { SMALL_DEVICES, normal, xLarge } from "../../themes/size";
+import {
+  EXTRA_SMALL_DEVICES,
+  SMALL_DEVICES,
+  normal,
+  xLarge
+} from "../../themes/size";
 
 const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: flex-start;
   margin: 30px 0px;
+`;
+
+const DesktopContainer = styled(Container)`
+  @media ${EXTRA_SMALL_DEVICES} {
+    display: none;
+  }
+`;
+
+const MobileContainer = styled.div`
+  display: none;
+
+  @media ${EXTRA_SMALL_DEVICES} {
+    display: unset;
+  }
 `;
 
 const Logo = styled.img`
@@ -69,73 +87,68 @@ function ProgrammingLanguage({ data }) {
   const text = useLanguage();
 
   return (
-    <Responsive>
-      {matches =>
-        matches ? (
-          <Fragment>
-            <Container>
-              <a href={data.link} rel="noopener noreferrer" target={"_blank"}>
-                <Logo src={data.icon} alt={""} />
-              </a>
-              <Detail>
-                <Name>
-                  <LinkCustom href={data.link} target={"_blank"}>
-                    {data.name}
-                  </LinkCustom>
-                </Name>
-                <Description>
-                  <span style={{ textDecoration: "underline" }}>
-                    {text.label.library}:
-                  </span>{" "}
-                  {data.libraries.map(library => (
-                    <Fragment key={library.name}>
-                      <LinkCustom href={library.link} target={"_blank"}>
-                        {library.name}
-                      </LinkCustom>
-                      ,{" "}
-                    </Fragment>
-                  ))}
-                  ...
-                </Description>
-              </Detail>
-            </Container>
-            <Point>
-              <ProgressBar points={data.points} />
-            </Point>
-          </Fragment>
-        ) : (
-          <Container>
-            <a href={data.link}>
-              <Logo src={data.icon} alt={""} />
-            </a>
-            <Detail>
-              <Name>
-                <LinkCustom href={data.link} target={"_blank"}>
-                  {data.name}
+    <Fragment>
+      <DesktopContainer>
+        <a href={data.link}>
+          <Logo src={data.icon} alt={""} />
+        </a>
+        <Detail>
+          <Name>
+            <LinkCustom href={data.link} target={"_blank"}>
+              {data.name}
+            </LinkCustom>
+          </Name>
+          <Description>
+            <span style={{ textDecoration: "underline" }}>
+              {text.label.library}:
+            </span>{" "}
+            {data.libraries.map(library => (
+              <Fragment key={library.name}>
+                <LinkCustom href={library.link} target={"_blank"}>
+                  {library.name}
                 </LinkCustom>
-              </Name>
-              <Description>
-                <span style={{ textDecoration: "underline" }}>
-                  {text.label.library}:
-                </span>{" "}
-                {data.libraries.map(library => (
-                  <Fragment key={library.name}>
-                    <LinkCustom href={library.link} target={"_blank"}>
-                      {library.name}
-                    </LinkCustom>
-                    ,{" "}
-                  </Fragment>
-                ))}
-                ...
-              </Description>
-            </Detail>
-            <Point>
-              <ProgressBar points={data.points} />
-            </Point>
-          </Container>
-        )
-      }
-    </Responsive>
+                ,{" "}
+              </Fragment>
+            ))}
+            ...
+          </Description>
+        </Detail>
+        <Point>
+          <ProgressBar points={data.points} />
+        </Point>
+      </DesktopContainer>
+      <MobileContainer>
+        <Container>
+          <a href={data.link} rel="noopener noreferrer" target={"_blank"}>
+            <Logo src={data.icon} alt={""} />
+          </a>
+          <Detail>
+            <Name>
+              <LinkCustom href={data.link} target={"_blank"}>
+                {data.name}
+              </LinkCustom>
+            </Name>
+            <Description>
+              <span style={{ textDecoration: "underline" }}>
+                {text.label.library}:
+              </span>{" "}
+              {data.libraries.map(library => (
+                <Fragment key={library.name}>
+                  <LinkCustom href={library.link} target={"_blank"}>
+                    {library.name}
+                  </LinkCustom>
+                  ,{" "}
+                </Fragment>
+              ))}
+              ...
+            </Description>
+          </Detail>
+        </Container>
+        <Point>
+          <ProgressBar points={data.points} />
+        </Point>
+      </MobileContainer>
+    </Fragment>
   );
 }
 
