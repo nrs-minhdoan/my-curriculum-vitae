@@ -36,6 +36,10 @@ const Title = styled.div`
     cursor: pointer;
   }
 
+  a:hover {
+    color: ${WHITE};
+  }
+
   a:first-of-type {
     padding-right: 10px;
     margin-right: 10px;

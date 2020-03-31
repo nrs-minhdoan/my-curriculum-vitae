@@ -104,7 +104,7 @@ const skills = {
       ]
     },
     {
-      points: 10,
+      points: 30,
       icon: require("../assets/images/ic_angular.svg"),
       name: "Angular",
       link: "https://angular.io",
@@ -167,15 +167,16 @@ const skills = {
           link: "https://momentjs.com"
         },
         { name: "RxJS", link: "https://rxjs-dev.firebaseapp.com" },
-        {
-          name: "CryptoJS",
-          link: "https://cryptojs.gitbook.io"
-        },
+        { name: "Core-JS", link: "https://github.com/zloirock/core-js" },
+        { name: "ChartJS", link: "https://www.chartjs.org" },
         {
           name: "SheetJS",
           link: "https://sheetjs.com"
         },
-        { name: "Core-JS", link: "https://github.com/zloirock/core-js" },
+        {
+          name: "CryptoJS",
+          link: "https://cryptojs.gitbook.io"
+        },
         {
           name: "Babel",
           link: "https://babeljs.io"

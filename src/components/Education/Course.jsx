@@ -45,6 +45,10 @@ const Name = styled.div`
     color: ${PRIMARY};
   }
 
+  a:hover {
+    color: ${WHITE};
+  }
+
   p {
     color: ${WHITE};
     font-weight: 400;

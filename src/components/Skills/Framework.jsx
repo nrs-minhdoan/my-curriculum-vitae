@@ -1,7 +1,6 @@
-import React, { Fragment } from "react";
+import React, { Fragment, memo } from "react";
 import styled from "styled-components";
 
-import useLanguage from "../../hooks/useLanguage";
 import ProgressBar from "../UI/ProgressBar/ProgressBar";
 
 import { PRIMARY, WHITE } from "../../themes/colors";
@@ -58,7 +57,13 @@ const Name = styled.div`
   border-bottom: dashed 1px ${PRIMARY};
 
   a {
+    text-decoration: none;
     color: ${PRIMARY};
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: ${WHITE};
   }
 `;
 
@@ -88,8 +93,6 @@ const Point = styled.div`
 `;
 
 function Framework({ data }) {
-  const text = useLanguage();
-
   return (
     <Fragment>
       <DesktopContainer>
@@ -103,9 +106,6 @@ function Framework({ data }) {
             </LinkCustom>
           </Name>
           <Description>
-            <span style={{ textDecoration: "underline" }}>
-              {text.label.library}:
-            </span>{" "}
             {data.libraries.map(library => (
               <Fragment key={library.name}>
                 <LinkCustom href={library.link} target={"_blank"}>
@@ -128,14 +128,11 @@ function Framework({ data }) {
           </a>
           <Detail>
             <Name>
-              <LinkCustom href={data.link} target={"_blank"}>
+              <a href={data.link} rel="noopener noreferrer" target={"_blank"}>
                 {data.name}
-              </LinkCustom>
+              </a>
             </Name>
             <Description>
-              <span style={{ textDecoration: "underline" }}>
-                {text.label.library}:
-              </span>{" "}
               {data.libraries.map(library => (
                 <Fragment key={library.name}>
                   <LinkCustom href={library.link} target={"_blank"}>
@@ -156,4 +153,6 @@ function Framework({ data }) {
   );
 }
 
-export default Framework;
+const MemoFramework = memo(Framework);
+
+export default MemoFramework;
