@@ -114,6 +114,13 @@ const skills = {
       ]
     },
     {
+      points: 10,
+      icon: require("../assets/images/ic_vue.svg"),
+      name: "VueJS",
+      link: "https://vuejs.org",
+      libraries: []
+    },
+    {
       points: 60,
       icon: require("../assets/images/ic_bootstrap.svg"),
       name: "Bootstrap",
