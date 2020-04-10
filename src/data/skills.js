@@ -104,7 +104,7 @@ const skills = {
       ]
     },
     {
-      points: 50,
+      points: 60,
       icon: require("../assets/images/ic_angular.svg"),
       name: "Angular",
       link: "https://angular.io",
