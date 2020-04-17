@@ -22,11 +22,28 @@ const experience = [
         database: ["MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack"],
         tasks: [
+          "Login",
           "Platform Statistic",
+          "Platform Status",
+          "User Access History",
+          "Data Export History",
           "User List",
           "Create User",
-          "Role & Permission"
-        ]
+          "Update User",
+          "Role & Permission",
+          "Create Role & Permission",
+          "Update Role & Permission",
+          "Enquiry List",
+          "Article Categories",
+          "Add Article Category",
+          "Update Article Category",
+          "Enquiry Categories",
+          "Add Enquiry Category",
+          "Update Enquiry Category",
+          "Terms & Conditions",
+          "Profile",
+          "Settings",
+        ],
       },
       {
         icon: require("../assets/images/img_chubb.png"),
@@ -47,11 +64,11 @@ const experience = [
           "Bootstrap",
           "RxJS",
           "NodeJS",
-          "ExpressJS"
+          "ExpressJS",
         ],
         database: ["MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack"],
-        tasks: ["Full Articles"]
+        tasks: ["Full Articles"],
       },
       {
         icon: require("../assets/images/ic_vn24_helper.svg"),
@@ -73,7 +90,7 @@ const experience = [
           "Redux-Saga",
           "React Native Elements",
           "NodeJS",
-          "ExpressJS"
+          "ExpressJS",
         ],
         database: ["MongoDB", "Redis"],
         tools: ["App Center", "Bitbucket", "Jira", "Slack", "Zalo"],
@@ -85,8 +102,8 @@ const experience = [
           "Account",
           "Wallet",
           "Activity",
-          "Notification"
-        ]
+          "Notification",
+        ],
       },
       {
         icon: require("../assets/images/ic_vn24_customer.svg"),
@@ -97,7 +114,7 @@ const experience = [
         status: "waiting",
         product: [
           "http://bit.do/customer-android",
-          "http://bit.do/customer-ios"
+          "http://bit.do/customer-ios",
         ],
         description: "vn24_customer",
         time: "11/2019",
@@ -111,11 +128,11 @@ const experience = [
           "Redux-Saga",
           "React Native Elements",
           "NodeJS",
-          "ExpressJS"
+          "ExpressJS",
         ],
         database: ["MongoDB", "Redis"],
         tools: ["App Center", "Bitbucket", "Jira", "Slack", "Zalo"],
-        tasks: ["Activity", "Notification"]
+        tasks: ["Activity", "Notification"],
       },
       {
         icon: require("../assets/images/ic_photobook.svg"),
@@ -132,7 +149,7 @@ const experience = [
         technologies: ["NextJS", "Redux", "Redux-Saga", "NodeJS", "ExpressJS"],
         database: ["MySql", "MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack"],
-        tasks: ["Home", "Login", "Register", "About", "Layout"]
+        tasks: ["Home", "Login", "Register", "About", "Layout"],
       },
       {
         icon: require("../assets/images/img_bbb_crm.png"),
@@ -156,7 +173,7 @@ const experience = [
           "ExpressJS",
           "Jhipster",
           "Spring Boot",
-          "Hibernate"
+          "Hibernate",
         ],
         database: ["MSSQL", "MySql", "MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack", "Skype"],
@@ -171,8 +188,8 @@ const experience = [
           "Warehouse Reports",
           "Inventory",
           "Inventory Detail",
-          "Listing Wizard"
-        ]
+          "Listing Wizard",
+        ],
       },
       {
         icon: require("../assets/images/img_bbb.png"),
@@ -195,7 +212,7 @@ const experience = [
           "ExpressJS",
           "Jhipster",
           "Spring Boot",
-          "Hibernate"
+          "Hibernate",
         ],
         database: ["MSSQL", "MySql", "MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack", "Skype"],
@@ -208,8 +225,8 @@ const experience = [
           "Register",
           "Profile",
           "Order",
-          "Message"
-        ]
+          "Message",
+        ],
       },
       {
         icon: require("../assets/images/ic_my_coach.svg"),
@@ -228,13 +245,13 @@ const experience = [
           "Google reCAPTCHA",
           "Google Sheets API",
           "NodeJS",
-          "ExpressJS"
+          "ExpressJS",
         ],
         database: ["Google Sheets"],
         tools: ["Bitbucket", "Slack", "Skype"],
-        tasks: ["Home", "Supporter", "Policy"]
-      }
-    ]
+        tasks: ["Home", "Supporter", "Policy"],
+      },
+    ],
   },
   {
     company: "acedev",
@@ -261,7 +278,7 @@ const experience = [
           "Mobx",
           "Material Dashboard PRO React",
           "NodeJS",
-          "ExpressJS"
+          "ExpressJS",
         ],
         database: ["MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack", "Skype"],
@@ -285,8 +302,8 @@ const experience = [
           "Platform Fee",
           "Subscriptions",
           "File Management",
-          "Feedback Management"
-        ]
+          "Feedback Management",
+        ],
       },
       {
         icon: require("../assets/images/img_mec.png"),
@@ -303,10 +320,10 @@ const experience = [
         technologies: ["NodeJS", "ExpressJS", "Pug"],
         database: ["MongoDB", "Redis"],
         tools: ["Bitbucket", "Jira", "Slack", "Skype"],
-        tasks: ["Home"]
-      }
-    ]
-  }
+        tasks: ["Home"],
+      },
+    ],
+  },
 ];
 
 export default experience;
