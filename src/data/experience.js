@@ -225,7 +225,7 @@ const experience = [
           "Profile",
           "Order",
           "Message",
-          "Return",
+          "Manage Return",
         ],
       },
       {
