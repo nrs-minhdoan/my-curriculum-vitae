@@ -136,7 +136,7 @@ function Project({ data }) {
               {text.label.product}:{" "}
               {Array.isArray(data.product) ? (
                 <ul>
-                  {data.product.map(item => (
+                  {data.product.map((item) => (
                     <li key={item}>
                       <a
                         href={item}
@@ -172,7 +172,7 @@ function Project({ data }) {
           </p>
           <p>
             {text.label.languages}:{" "}
-            {data.languages.map(item => (
+            {data.languages.map((item) => (
               <Fragment key={item}>
                 <span>{item}</span>,{" "}
               </Fragment>
@@ -181,7 +181,7 @@ function Project({ data }) {
           </p>
           <p>
             {text.label.technologies}:{" "}
-            {data.technologies.map(item => (
+            {data.technologies.map((item) => (
               <Fragment key={item}>
                 <span>{item}</span>,{" "}
               </Fragment>
@@ -190,7 +190,7 @@ function Project({ data }) {
           </p>
           <p>
             {text.label.database}:{" "}
-            {data.database.map(item => (
+            {data.database.map((item) => (
               <Fragment key={item}>
                 <span>{item}</span>,{" "}
               </Fragment>
@@ -199,7 +199,7 @@ function Project({ data }) {
           </p>
           <p>
             {text.label.tools}:{" "}
-            {data.tools.map(item => (
+            {data.tools.map((item) => (
               <Fragment key={item}>
                 <span>{item}</span>,{" "}
               </Fragment>
@@ -209,7 +209,7 @@ function Project({ data }) {
           <div>
             {text.label.tasks}:{" "}
             <ul>
-              {data.tasks.map(item => (
+              {data.tasks.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

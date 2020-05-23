@@ -32,11 +32,11 @@ function Layout() {
   const text = useLanguage();
 
   const tabs = useMemo(() => {
-    const rs = Object.keys(text.tabs).map(item => text.tabs[item]);
+    const rs = Object.keys(text.tabs).map((item) => text.tabs[item]);
     return rs;
   }, [text]);
 
-  const _handleChangeTab = useCallback(value => {
+  const _handleChangeTab = useCallback((value) => {
     setTab(value);
   }, []);
 

@@ -11,7 +11,7 @@ import {
   EXTRA_SMALL_DEVICES,
   LARGE_DEVICES,
   normal,
-  xLarge
+  xLarge,
 } from "../../themes/size";
 import { changingHeight } from "../../themes/animations";
 

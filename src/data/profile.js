@@ -4,7 +4,7 @@ const profile = {
   name: "Đoàn Trương Minh",
   dob: "13/05/1995",
   email: "minh.doan.nrs@gmail.com",
-  github: "https://github.com/nrs-minhdoan"
+  github: "https://github.com/nrs-minhdoan",
 };
 
 export default profile;

@@ -33,11 +33,11 @@ function Skills() {
   return (
     <Container>
       <Title>● Frameworks:</Title>
-      {skills.frameworks.map(item => (
+      {skills.frameworks.map((item) => (
         <Framework key={item.name} data={item} />
       ))}
       <TitleCustom>● Programming Languages:</TitleCustom>
-      {skills.languages.map(item => (
+      {skills.languages.map((item) => (
         <ProgrammingLanguage key={item.name} data={item} />
       ))}
     </Container>

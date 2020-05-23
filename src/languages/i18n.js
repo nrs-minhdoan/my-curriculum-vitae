@@ -1,4 +1,4 @@
 export default {
   vi: require("./vi.json"),
-  en: require("./en.json")
+  en: require("./en.json"),
 };

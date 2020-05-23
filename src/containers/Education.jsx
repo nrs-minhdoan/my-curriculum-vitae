@@ -14,7 +14,7 @@ const Container = styled.div`
 function Education() {
   return (
     <Container>
-      {education.map(item => (
+      {education.map((item) => (
         <Course key={item.institution} data={item} />
       ))}
     </Container>

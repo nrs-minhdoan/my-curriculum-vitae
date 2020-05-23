@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 import { PRIMARY, GREY } from "../../../themes/colors";
-import { progressing } from '../../../themes/animations';
+import { progressing } from "../../../themes/animations";
 
 const Bar = styled.div`
   width: 100%;
@@ -13,7 +13,7 @@ const Bar = styled.div`
 `;
 
 const ProgressContainer = styled.div`
-  width: ${props => props.points}%;
+  width: ${(props) => props.points}%;
   height: 10px;
   border-radius: 10px;
 `;
@@ -36,11 +36,11 @@ function ProgressBar({ points }) {
 }
 
 ProgressBar.defaultProps = {
-  points: 0
+  points: 0,
 };
 
 ProgressBar.propTypes = {
-  points: PropTypes.number
+  points: PropTypes.number,
 };
 
 const MemoProgressBar = memo(ProgressBar);

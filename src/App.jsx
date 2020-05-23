@@ -31,8 +31,8 @@ const LanguageMenu = styled.div`
 const LanguageOption = styled.div`
   flex: 1;
   text-align: center;
-  color: ${props => (props.active ? PRIMARY : WHITE)};
-  cursor: ${props => (props.active ? "default" : "pointer")};
+  color: ${(props) => (props.active ? PRIMARY : WHITE)};
+  cursor: ${(props) => (props.active ? "default" : "pointer")};
   ${normal}
 
   &:hover {
@@ -49,7 +49,7 @@ const Border = styled.div`
 function App() {
   const [lang, setLang] = useState("en");
 
-  const _handleChangeLanguage = useCallback(lng => {
+  const _handleChangeLanguage = useCallback((lng) => {
     setLang(lng);
   }, []);
 

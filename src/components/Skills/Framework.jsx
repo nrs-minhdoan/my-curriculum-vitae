@@ -8,7 +8,7 @@ import {
   EXTRA_SMALL_DEVICES,
   SMALL_DEVICES,
   normal,
-  xLarge
+  xLarge,
 } from "../../themes/size";
 
 const Container = styled.div`
@@ -106,7 +106,7 @@ function Framework({ data }) {
             </LinkCustom>
           </Name>
           <Description>
-            {data.libraries.map(library => (
+            {data.libraries.map((library) => (
               <Fragment key={library.name}>
                 <LinkCustom href={library.link} target={"_blank"}>
                   {library.name}
@@ -133,7 +133,7 @@ function Framework({ data }) {
               </a>
             </Name>
             <Description>
-              {data.libraries.map(library => (
+              {data.libraries.map((library) => (
                 <Fragment key={library.name}>
                   <LinkCustom href={library.link} target={"_blank"}>
                     {library.name}

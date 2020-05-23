@@ -20,7 +20,7 @@ const Title = styled.div`
   align-items: center;
   margin-left: 10px;
 
-  ${props =>
+  ${(props) =>
     props.first
       ? ""
       : `margin-top: 20px; padding-top: 20px; border-top: solid 1px ${PRIMARY};`}
@@ -88,7 +88,7 @@ function Experience() {
   const text = useLanguage();
 
   const _handleRenderTime = useCallback(
-    data => {
+    (data) => {
       switch (data.status) {
         case "working":
           return data.time + " - " + text.time.current;
@@ -116,7 +116,7 @@ function Experience() {
             </a>
           </Title>
           <Time>({_handleRenderTime(item)})</Time>
-          {item.projects.map(project => (
+          {item.projects.map((project) => (
             <Project key={project.name} data={project} />
           ))}
         </Fragment>

@@ -22,7 +22,7 @@ const Tab = styled.div`
   padding: 10px;
   cursor: pointer;
   font-weight: 700;
-  color: ${props => (props.activated ? PRIMARY : WHITE)};
+  color: ${(props) => (props.activated ? PRIMARY : WHITE)};
   ${center}
   ${large}
   transition: color 0.3s ease;
@@ -34,13 +34,13 @@ const Tab = styled.div`
 `;
 
 const Bar = styled.div`
-  width: calc(100% / ${props => props.size});
+  width: calc(100% / ${(props) => props.size});
   height: 3px;
   background-color: ${PRIMARY};
   position: absolute;
   z-index: 2;
   bottom: -2px;
-  left: ${props => `calc(100% * ${props.active} / ${props.size})`};
+  left: ${(props) => `calc(100% * ${props.active} / ${props.size})`};
   transition: left 0.3s ease;
 
   @media ${EXTRA_SMALL_DEVICES} {
@@ -71,13 +71,13 @@ function Tabs({ data, active, onChange }) {
 Tabs.defaultProps = {
   data: [],
   active: 0,
-  onChange: () => {}
+  onChange: () => {},
 };
 
 Tabs.propTypes = {
   data: PropTypes.array.isRequired,
   active: PropTypes.number,
-  onChange: PropTypes.func.isRequired
+  onChange: PropTypes.func.isRequired,
 };
 
 const MemoTabs = memo(Tabs);
