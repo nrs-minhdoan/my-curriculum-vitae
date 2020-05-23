@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-curriculum-vitae/static/css/main.2ec611d5.chunk.css",
-    "main.js": "/my-curriculum-vitae/static/js/main.f8db1e75.chunk.js",
-    "main.js.map": "/my-curriculum-vitae/static/js/main.f8db1e75.chunk.js.map",
+    "main.js": "/my-curriculum-vitae/static/js/main.d535b56d.chunk.js",
+    "main.js.map": "/my-curriculum-vitae/static/js/main.d535b56d.chunk.js.map",
     "runtime-main.js": "/my-curriculum-vitae/static/js/runtime-main.8c5988c3.js",
     "runtime-main.js.map": "/my-curriculum-vitae/static/js/runtime-main.8c5988c3.js.map",
     "static/js/2.a1b11b12.chunk.js": "/my-curriculum-vitae/static/js/2.a1b11b12.chunk.js",
     "static/js/2.a1b11b12.chunk.js.map": "/my-curriculum-vitae/static/js/2.a1b11b12.chunk.js.map",
     "index.html": "/my-curriculum-vitae/index.html",
-    "precache-manifest.895570477dcb4a3ae73875160a3a83cc.js": "/my-curriculum-vitae/precache-manifest.895570477dcb4a3ae73875160a3a83cc.js",
+    "precache-manifest.7a7e9c5203f60bf11c0cd120f39677e2.js": "/my-curriculum-vitae/precache-manifest.7a7e9c5203f60bf11c0cd120f39677e2.js",
     "service-worker.js": "/my-curriculum-vitae/service-worker.js",
     "static/css/main.2ec611d5.chunk.css.map": "/my-curriculum-vitae/static/css/main.2ec611d5.chunk.css.map",
     "static/js/2.a1b11b12.chunk.js.LICENSE.txt": "/my-curriculum-vitae/static/js/2.a1b11b12.chunk.js.LICENSE.txt",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.8c5988c3.js",
     "static/js/2.a1b11b12.chunk.js",
     "static/css/main.2ec611d5.chunk.css",
-    "static/js/main.f8db1e75.chunk.js"
+    "static/js/main.d535b56d.chunk.js"
   ]
 }
