@@ -115,6 +115,7 @@ const skills = {
       link: "https://angular.io",
       libraries: [
         { name: "Angular 7", link: "https://v7.angular.io" },
+        { name: "Angular 10", link: "https://angular.io" },
         { name: "Ng-Zorro", link: "https://ng.ant.design" },
       ],
     },
